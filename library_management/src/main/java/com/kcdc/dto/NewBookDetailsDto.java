@@ -12,8 +12,7 @@ import lombok.NoArgsConstructor;
 
 @Data
 @Builder
-@NoArgsConstructor
-@AllArgsConstructor
+
 @Valid
 public class NewBookDetailsDto {
 	

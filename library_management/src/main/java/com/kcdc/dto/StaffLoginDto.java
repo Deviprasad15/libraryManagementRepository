@@ -10,8 +10,7 @@ import lombok.NoArgsConstructor;
 @Valid
 @Data
 @Builder
-@NoArgsConstructor
-@AllArgsConstructor
+
 public class StaffLoginDto {
 	
 	@NotNull(message = "userName should not  be a null ")
